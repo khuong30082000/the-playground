@@ -1,0 +1,15 @@
+.banner {
+    padding-top: 15rem;
+    max-width: 80rem;
+    margin: 0 auto;
+    text-align: center;
+    &__heading {
+        font-weight: 600;
+        font-size: 6rem;
+        margin-bottom: 2rem;
+    }
+    &__desc {
+        font-size: 1.8rem;
+        font-weight: 300;
+    }
+}

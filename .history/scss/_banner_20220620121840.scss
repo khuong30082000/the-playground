@@ -1,0 +1,17 @@
+.banner{
+    padding-top: 150px;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+    &__heading { 
+       font-weight: 700;
+       font-size: 4.5rem;
+       margin-bottom: 30px;
+       color:$text-color;
+    }
+    &__desc{ 
+        margin-bottom:20px;
+        font-size: 1.8rem;
+        font-weight: 300;
+    }
+}

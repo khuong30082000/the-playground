@@ -1,0 +1,12 @@
+.footer {
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        width:25%;
+    }
+    &__link {
+        color:$text-color;
+    }
+}

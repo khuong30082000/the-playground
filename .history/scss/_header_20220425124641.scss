@@ -1,0 +1,22 @@
+.header { 
+    padding-top:40px;
+    &__inner {
+       @include flex(center,space-between);
+    }
+    &__menu-list {
+        @include flex(center);
+        list-style: none;
+       
+    }
+    &__logo {
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: $text-color;
+        &-text {
+            color:$primary-color
+        }
+        &-item {
+            
+        }
+    }
+}

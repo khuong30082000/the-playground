@@ -1,0 +1,10 @@
+.partner {
+    max-width: 830px;
+    text-align: center;
+    margin: 0 auto;
+    &__title{
+        font-size: 2rem;
+        font-weight: bold;
+        color:$text-color;
+    }
+}

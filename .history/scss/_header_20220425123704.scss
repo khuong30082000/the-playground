@@ -1,0 +1,21 @@
+.header { 
+    padding-top:40px;
+    &__inner {
+        display: flex;
+        align-items:center ;
+        justify-content: space-between;
+    }
+    &__menu-list {
+        display: flex;
+        list-style: none;
+       
+    }
+    &__logo {
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: $text-color;
+        &-text {
+            color:$primary_color
+        }
+    }
+}

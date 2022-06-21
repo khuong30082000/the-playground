@@ -1,0 +1,8 @@
+.category {
+    &__list{
+        display: flex;
+        align-items: stretch;
+        justify-content: space-between;
+        gap:0 30px;
+    }
+}

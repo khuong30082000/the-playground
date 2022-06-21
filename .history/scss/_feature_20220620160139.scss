@@ -1,0 +1,33 @@
+.feature {
+    padding-top: 180px;
+    &__item {
+        display: flex;
+        align-items: center;
+    }
+    &__image,&__info {
+        width: 50%;
+    }
+    &__info {
+       margin-left: 100px;
+    }
+    &__heading {
+        font-size: 40px;
+        font-weight: 600;
+        margin-bottom: 25px;
+    }
+    &__desc {
+        font-weight: 300;
+        font-size: 1.4rem;
+        color:$desc-color;
+        margin-bottom: 40px;
+        line-height: 1.8;
+    }
+    &__list{
+        &.feature__item {
+            font-weight: 600;
+            margin-bottom: 30px;
+            text-decoration: underline;
+            font-size: 2rem;
+        }
+    }
+}

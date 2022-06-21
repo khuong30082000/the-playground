@@ -1,0 +1,10 @@
+.subscribe {
+    padding-top: 190px;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title,&__info{
+        width: 50%;
+    }
+}

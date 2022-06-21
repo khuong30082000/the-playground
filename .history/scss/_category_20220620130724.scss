@@ -1,0 +1,19 @@
+.category {
+    &__list {
+        display: flex;
+        align-items: stretch;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__item {
+        width: calc(25% - 22.5px);
+        padding:25px;
+        background-color: red;
+        border-radius: 20px;
+    }
+    &__image {
+        border-radius: inherit;
+       height: 230px;
+       width: 100%;
+    }
+}

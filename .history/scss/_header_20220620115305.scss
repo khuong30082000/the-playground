@@ -1,0 +1,19 @@
+.header { 
+    &__inner {
+      padding-top: 40px;
+      display: flex;
+      justify-content: space-between;
+    }
+    &__menu-list{ 
+      display: flex;
+      align-items: center;
+    }
+    &__menu-item {
+      margin-left:40px;
+    }
+    &__menu-item:last-child {
+      margin-left:70px;
+    }
+
+    
+}

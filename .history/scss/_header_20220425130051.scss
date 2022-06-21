@@ -1,0 +1,40 @@
+.header {
+  padding-top: 4rem;
+  &__inner {
+    @include flex(center, space-between);
+  }
+  &__menu {
+    &-list {
+      @include flex(center);
+      list-style: none;
+    }
+    &-item {
+      margin-left: 5rem;
+      &:last-child {
+        margin-left: 7rem;
+      }
+    }
+    &-link {
+      font-size: 1.6rem;
+      color: $text-color;
+      transition:color 0.25 linear , border 0.25 linear;
+      &:hover {
+        color: $primary-color;
+      }
+    }
+    &-login {
+      padding: 1.5rem 2.5rem;
+      border: 1px solid;
+      border-radius: 2.5rem;
+      display: inline-block;
+    }
+  }
+  &__logo {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: $text-color;
+    &-text {
+      color: $primary-color;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.feature {
+    padding-top: 180px;
+    &__item {
+        display: flex;
+        align-items: center;
+    }
+    &__image,&__info {
+        width: 50%;
+    }
+    &__info {
+        padding-left: 20px;
+    }
+}
